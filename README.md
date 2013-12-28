@@ -1,6 +1,6 @@
-# git-cola: The highly caffeinated git GUI
+# Git 'R' Us: The highly caffeinated git GUI
 
-    git-cola is a powerful Git GUI with a slick and intuitive user interface.
+    Git 'R' Us is a powerful Git GUI with a slick and intuitive user interface.
 
     Copyright (C) 2007, 2008, 2009, 2010, 2011, 2012, 2013
     David Aguilar and contributors
@@ -125,12 +125,12 @@ Download the latest stable Git, Python 2.x, and Py2x-PyQt4 installers
 Once these are installed you can run *git-cola* from the Start menu or
 by double-clicking on the `git-cola.pyw` script.
 
-If you are developing *git-cola* on Windows you can use `python.exe` to run
-*git-cola* directly from source.
+If you are developing *Git 'R' Us* on Windows you can use `python.exe` to run
+*Git 'R' Us* directly from source.
 
     python.exe bin/git-cola
 
-If you want to build the `git-cola Installer` yourself run the provided script
+If you want to build the `Git 'R' Us Installer` yourself run the provided script
 
     contrib/win32/create-installer.sh
 
@@ -144,8 +144,8 @@ for the differences).
 
 ## GOODIES
 
-*git-cola* ships with an interactive rebase editor called *git-xbase*.
+*Git 'R' Us* ships with an interactive rebase editor called *git-xbase*.
 *git-xbase* can be used to reorder and choose commits and can be launched
-independently of the main *git-cola* interface, e.g.:
+independently of the main *Git 'R' Us* interface, e.g.:
 
     GIT_SEQUENCE_EDITOR=$PWD/share/git-cola/bin/git-xbase git rebase -i master
